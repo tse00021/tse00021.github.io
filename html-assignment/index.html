@@ -6,36 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Assignment</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>Wai Hin TSE</h1>
+        <h1 class="site-title">Wai Hin TSE
+        </h1>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="notes.html">Notes</a></li>
+            </ul>
+        </nav>
     </header>
 
     <article>
         <h2>About Me</h2>
 
-        <P>Hi, I'm <strong>Elvis</strong>. My birthday is on Septemper 7<sup>th</sup>. I enjoy outdoor activities, especially biking, hiking, swimming, and
+        <P>Hi, I'm <strong>Elvis</strong>. My birthday is on Septemper 7<sup>th</sup>. I enjoy outdoor activities,
+            especially biking, hiking, swimming, and
             diving. They make me feel alive and connected to nature. Lately, I've been interested in
             learning how to snowboard. It looks really fun and exciting, and I'd love to give it a try.</P>
 
         <p>I really enjoy taking photos and videos. It brings me happiness to capture special moments and express my
             creativity through visuals. Being able to freeze time and convey emotions through pictures and videos brings
-            me a lot of joy and fulfillment. I hope to find a <abbr title="Interactive Media Design">IMD</abbr> job that allows me to enjoy my passion."</p>
+            me a lot of joy and fulfillment. I hope to find a <abbr title="Interactive Media Design">IMD</abbr> job that
+            allows me to enjoy my passion."</p>
     </article>
 
-    <img src="images/33308973-4F28-4099-90DF-F5403C78466A_1_105_c.jpeg" alt="image of Rainbow with me" height="500"/>
+    <img src="images/33308973-4F28-4099-90DF-F5403C78466A_1_105_c.jpeg" alt="image of Rainbow with me" height="500"
+        id="my-image" />
 
     <h2>My Hobbies in summer</h2>
-    <ul>
+    <ul class="square-list">
         <li>Cycling</li>
         <li>Photography</li>
         <li>Swimming</li>
-            </ul>
-
-
-
+    </ul>
 
     <blockquote>
         <p><em>"life is like a riding a bicycle. To keep your balance, you must keep moving."</em></p>
@@ -45,12 +54,7 @@
     <footer>
         All content on this website is protected by copyright.
     </footer>
-</ul>
-<nav>
-    <ul>
-      <li><a href="note.html">Note</a></li>
-      <li><a href="index.html">Home</a></li>
-    </ul>
-  </nav>
+
 </body>
+
 </html>

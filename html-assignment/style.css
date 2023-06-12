@@ -1,0 +1,55 @@
+body {
+  font-family: Gill Sans; /* Change the font family */
+  font-size: 18px; /* Increase the font size to 18px*/
+}
+
+header, footer {
+  background-color: #23c9eb; /* add the background color*/
+}
+
+.site-title {
+  color: rgb(221, 235, 145);
+  text-align: left;
+  padding-top: 1%;
+  padding-bottom: 0px;
+  text
+ 
+}
+
+#my-image {
+  box-shadow: 0 0 2px 1px black; /* add shadow to the photo  */
+}
+
+.square-list {
+  list-style-type: square; /* replace the bullet from the list with squares */
+}
+
+.square-list li:nth-child(odd) {
+  background-color: #d58aba; /* Change the background color */
+}
+
+nav>ul {
+  list-style-type: none; /* Remove the bullet from the unordered list */
+}
+
+/* css style for navigator */
+nav a {
+  font-size: 20px;
+  text-decoration: none; /* Remove the underline from the unordered list */
+  background-color: rgb(221, 235, 145); /* Add a background-color */
+  /* Add a border to the link */
+  color:black;
+  border: 1px solid black;
+  padding: 1px 5px ;
+
+
+}
+
+nav li a:hover,
+nav li a:focus {
+  background-color: #589719; /* Change the background color on hover or focus state of the links */
+}
+
+nav>ul>li {
+  display: inline;
+}
