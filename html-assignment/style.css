@@ -1,19 +1,14 @@
 body {
   font-family: Gill Sans; /* Change the font family */
-  font-size: 18px; /* Increase the font size to 18px*/
+  font-size: 18px; /* Change the font size to 18px*/
 }
 
 header, footer {
-  background-color: #23c9eb; /* add the background color*/
+  background-color: #23c9eb; /* add the same background color for header and footer*/
 }
 
 .site-title {
-  color: rgb(221, 235, 145);
-  text-align: left;
-  padding-top: 1%;
-  padding-bottom: 0px;
-  text
- 
+  color: rgb(221, 235, 145); /* change the color of text of the heading*/
 }
 
 #my-image {
@@ -25,28 +20,26 @@ header, footer {
 }
 
 .square-list li:nth-child(odd) {
-  background-color: #d58aba; /* Change the background color */
+  background-color: rgb(221, 235, 145);; /* add the background to the odd list items in the hobby list */
 }
+/*styling the Navigation*/
 
 nav>ul {
-  list-style-type: none; /* Remove the bullet from the unordered list */
+  list-style-type: none;
+  /*Remove the bullet from the unordered list */
 }
 
-/* css style for navigator */
 nav a {
-  font-size: 20px;
+  font-size: 19px;
   text-decoration: none; /* Remove the underline from the unordered list */
   background-color: rgb(221, 235, 145); /* Add a background-color */
   /* Add a border to the link */
   color:black;
-  border: 1px solid black;
-  padding: 1px 5px ;
-
-
+  border: 3px solid black;
+  padding: 1px 6px;
 }
 
-nav li a:hover,
-nav li a:focus {
+nav li a:hover, nav li a:focus {
   background-color: #589719; /* Change the background color on hover or focus state of the links */
 }
 
