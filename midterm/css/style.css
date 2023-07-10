@@ -128,14 +128,14 @@ h3 {
   margin: 0;
 }
 
-/*style the targhets list items*/
+/*style the list items*/
 .facts li {
   line-height: 1.5;
   margin-left: 5px;
 }
 
-/*styles the Box layout*/
-div .box {
+/*styles the form*/
+.box {
   width: 825px;
   height: 410px;
   padding: 15px;
@@ -171,7 +171,7 @@ h4 {
      
 }
 
-/*styles the Button layout*/
+/*styles the Button*/
 .button {
   width: 50px;
   height: 35px;
@@ -180,7 +180,6 @@ h4 {
   margin: 10px;
   
 }
-
 .button {
   background-color:rgb(223, 231, 182);
   color: black;
