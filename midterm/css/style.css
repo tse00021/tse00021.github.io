@@ -184,6 +184,7 @@ h4 {
   color: black;
   transition-duration: 0.4s;
   cursor: pointer;
+  display: block !important;
 
 }
 .button:hover {

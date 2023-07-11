@@ -59,13 +59,13 @@
                 <div class="box">
                     <form action="#" method="post" class="input-parent">
                         <label for="name">Your Name</label>
-                        <input type="text" id="name" class="input-child">
+                        <input type="text" id="name" name="name" class="input-child">
         
                         <label for="email">Your Email</label>
-                        <input type="text" id="email" class="input-child">
+                        <input type="email" id="email" name="email" class="input-child">
         
                         <label for="message">Your Message</label>
-                        <textarea id="message" class="input-child"></textarea> 
+                        <textarea id="message" name="message" class="input-child"></textarea> 
                     
                     <h4>Would you like to visit Quebec City?</h4>
                   
@@ -77,8 +77,9 @@
         
                         <label for="maybe">Maybe</label>
                         <input type="radio" id="maybe" name="yes" value="maybe">      
-                    </form> 
-                    <button class="button">SEND</button>
+                   
+                    <input class="button" type="submit" value="SEND">
+                </form> 
                 </div>
                 </section>
 
