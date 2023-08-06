@@ -1,0 +1,489 @@
+/* reset css */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 reset */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style for mobile */
+body {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+/* set the mobile wrapper width */
+.wrapper {
+    margin: 0 auto; 
+    padding: 0 10px;
+    max-width: 1200px;
+}
+
+/* set the navigation for mobile */
+header {
+    background-color: #222;
+}
+
+.logocontainer {
+    background-color: #9FE0DA;
+    width: 100%;
+}
+
+.navlist {
+    text-align: center;
+}
+
+.navlist li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #9FE0DA;
+}
+
+header .home {
+    background-color: #9FE0DA;
+    color: black;
+}
+
+.find form {
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.find form input {
+    width: 97%;
+    height: 22px;
+}
+
+.fa-magnifying-glass {
+    border: 1px solid #9FE0DA ;
+    color: #9FE0DA;
+    padding: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* set the background image for mobile */
+.welcome {
+    background-image: url("../images/banner.jpg");
+    /* set background no repeat */
+    background-position: center center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.welcome .wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.welcome .wrapper h1 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.welcome .wrapper p {
+    color: white;
+    padding-bottom: 10px;   
+}
+
+button {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+.connect {
+    color: black;
+    background-color: #709490;
+}
+
+/* set the flex for mobile */
+.about {
+    background-color: #9FE0DA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about img {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.about h2 {
+    padding-bottom: 10px;
+}
+
+/* set the flex for mobile */
+.services {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.services h2 {
+    padding-bottom: 10px;
+}
+
+.quebecc, .ottawa, .gatineau, .rideau, .sup {
+    background-color: #9FE0DA;
+    margin-bottom: 10px;
+}
+
+.services img {
+    width: 100%;
+}
+
+.services h3, .services p {
+    padding: 10px;
+}
+
+.services p {
+    padding-top: 0;
+}
+
+.services button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* set the background image for mobile */
+.vision {
+    background-image: url("../images/services.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.vision h3, .vision p {
+    color: white;
+}
+
+.vision button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid 1px #9FE0DA;
+}
+
+.vision h3, .vision p {
+    padding-bottom: 10px;
+}
+
+/* set the grid for mobile */
+.team {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.elvisbio, .johnbio {
+    background-color: #9FE0DA;
+    padding: 10px;
+}
+
+.team h5 {
+    border-bottom: 2px solid #9FE0DA;
+}
+
+.team p {
+    padding-top: 10px;
+}
+
+.elvisspic, .johnspic {
+    width: 100%;
+    padding-top: 10px;
+}
+
+/* set contact for mobile */
+.contact {
+    padding-top: 50px;
+}
+
+.contact h2 {
+    padding-bottom: 10px;
+}
+
+.message input, .message textarea {
+    width: 100%;
+}
+
+.contact .info .message button {
+    font-size: 1rem;
+    background-color: #709490;
+    color: black;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* timetable */
+.table {
+    border: solid 1px black;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    background-color: #709490;
+}
+
+/* set size for the map */
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/* footer */
+footer p {
+    background-color: #222;
+    color: #9FE0DA;
+    padding: 15px;
+    padding-top: 20px;
+}
+
+.lastline {
+    padding-top: 0;
+}
+
+.lastline a {
+    color: #9FE0DA;
+} 
+
+/* style for the web */
+
+@media screen and (min-width: 760px) and (max-width: 1200px) {
+    .navlist {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 760px) {   
+    /* set the flex for navigation */
+    .navigation {
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 40px 10px;
+    }
+  
+    .logocontainer {
+        width: 98px;
+        height: 98px;
+    }
+
+    .navlist {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 30px;
+    }
+
+    .navlist li {
+        background-color: #222;
+        justify-content: space-evenly;
+        padding: 15px 30px;
+        width: max-content;
+        margin: 1rem;
+    }
+
+    .navlist .home {
+        background-color: #9FE0DA;
+    }
+
+    .navigation .find {
+        margin-top: 26px;
+    }
+
+    /* set the float for the web */
+
+    .flo {
+        width: 50%;
+        float: left;
+        padding-right: 1rem;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both; 
+    }
+
+    .flo img {
+        padding-bottom: 0;
+    }
+
+    /* set the grid for the web */
+    .serviceboxes {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);   
+    }
+
+    .quebecc {
+        grid-column: 1 / span 3;
+        margin-right: 5px;
+    }
+    
+    .ottawa {
+        grid-column: 4 / span 3;
+        margin-left: 5px;
+      }
+    
+    .gatineau {
+        grid-column: 1 / span 2;
+        grid-row: 2 / span 2;
+        margin-right: 6px;
+    }
+
+    .rideau {
+        grid-column: 3 / span 2;
+        grid-row: 2 / span 2;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .sup {
+        grid-column: 5 / span 2;
+        grid-row: 2 / span 2;
+        margin-left: 6px;
+    }
+
+    .serviceboxes h3 {
+        width: max-content;
+    }
+
+    /* set the grid for the web */
+    .team {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);  
+        grid-template-areas: 
+        "johnspic johnbio"
+        "bobbio bobspic"; 
+    }
+
+    .elvisspic {
+        grid-area: johnspic;
+        padding-top: 0;
+    }
+
+    .elvisbio {
+        grid-area: johnbio;
+        padding: 10px 10px;
+    }
+
+    .johnbio {
+        grid-area: bobbio;
+        padding: 10px 10px;
+    }
+
+    .johnspic {
+        grid-area: bobspic;
+        padding-top: 0;
+    }
+
+    /* set the grid for the web */
+    .info {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 270px 170px;  
+        grid-template-areas: 
+        "message message location location"
+        "hours hours hours hours"; 
+    }
+
+    .message {
+        grid-area: message;
+        width: auto;
+    }
+    .message form input, .message form textarea {
+        width: 98%;
+    }
+
+    .hours {
+        grid-area: hours;
+        margin-top: 1rem;
+    }
+
+    .location {
+        grid-area: location;
+        text-align: left;
+    }
+    .location iframe {
+        width: 98%;
+        height: 86%;
+    }
+}
